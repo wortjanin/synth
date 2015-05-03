@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <BoostPath>D:\pf\boost_1_55_0</BoostPath>
+    <BoostIncludePath>D:\pf\boost_1_55_0\bin_msvc\include\boost-1_55</BoostIncludePath>
+    <BoostLibPath>D:\pf\boost_1_55_0\bin_msvc\lib</BoostLibPath>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="BoostPath">
+      <Value>$(BoostPath)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BoostIncludePath">
+      <Value>$(BoostIncludePath)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BoostLibPath">
+      <Value>$(BoostLibPath)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
